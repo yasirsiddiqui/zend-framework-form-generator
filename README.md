@@ -10,7 +10,7 @@ lot of coding effort.This class supports all Zend Form elements with almost ever
 
 Example
 ==========================
-<code> 
+<pre><code>
 <?php
 include_once 'ZendForm.Class.php';
 
@@ -37,4 +37,4 @@ $zendform->addHash("csrftokenfield", md5(uniqid(rand(), TRUE)), 300, "Form has t
 $zendform->addSubmitButton("submit", "Submit");
 
 $zendform->saveToFile("./ContactUs.php");
-</code> 
+</code></pre>
