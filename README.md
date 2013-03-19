@@ -13,6 +13,7 @@ Example
 <pre><code>
 
 <?php
+
 include_once 'ZendForm.Class.php';
 
 $formattributes = array('id' =>'contactusform');
@@ -38,4 +39,5 @@ $zendform->addHash("csrftokenfield", md5(uniqid(rand(), TRUE)), 300, "Form has t
 $zendform->addSubmitButton("submit", "Submit");
 
 $zendform->saveToFile("./ContactUs.php");
+
 </code></pre>
